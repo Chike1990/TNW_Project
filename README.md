@@ -2,9 +2,7 @@
 
 # TNW_Project
 
-![screenshot](TNW_Project\assets\images\project-screenshot.png)
-(TNW_Project\assets\images\project-screenshot-mobile-view.png)
-(TNW_Project\assets\images\project-screenshot.png)
+![screenshot](./assets/images/project-screenshot.png)
 It's a TNW webpage built with HTML 5 semantic tags, CSS grid, flex, etc.
 
 ## Built With
@@ -20,9 +18,9 @@ It's a TNW webpage built with HTML 5 semantic tags, CSS grid, flex, etc.
 
 👤 **Chibuike Uzoechina**
 
-- GitHub: [@githubhandle](https://github.com/Chike1990)
-- Twitter: [@twitterhandle](https://twitter.com/@ChibuikeUzoechi)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chibuike-uzoechina-630857102)
+- GitHub: [Chike](https://github.com/Chike1990)
+- Twitter: [Chike](https://twitter.com/@ChibuikeUzoechi)
+- LinkedIn: [Chike](https://www.linkedin.com/in/chibuike-uzoechina-630857102)
 
 ## 🤝 Contributing
 
