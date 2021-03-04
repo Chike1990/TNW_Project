@@ -1,0 +1,173 @@
+/* style for the funding layout */
+.funding {
+  display: grid;
+  grid-row-gap: 10px;
+}
+
+.funding article:last-of-type {
+  display: none;
+}
+
+.funding-header * {
+  margin: 0;
+  color: #f42;
+  text-decoration: none;
+}
+
+.funding-header {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  padding: 0 1rem;
+}
+
+.funding-links > a:hover,
+.funding-header h2 a:hover {
+  color: #000;
+}
+
+.funding-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  font-family: ARS-Marquette-Regular, Arial, Helvetica, sans-serif;
+  font-size: 0.95rem;
+}
+
+.funding-links span {
+  display: none;
+}
+
+.funding-article * {
+  margin: 0;
+}
+.funding-article {
+  font-family: ARS-Marquette-Bold, Arial, Helvetica, sans-serif;
+  background-color: #fff9f2;
+}
+
+.funding-article header {
+  height: 5rem;
+  padding: 0.6rem;
+  background-image: linear-gradient(#f53 40%, #ffebe8 40%);
+}
+
+.funding-header > h2 a {
+  font-family: Avalon-Bold, sans-serif;
+}
+
+.funding-article header h5 {
+  font-size: 0.5rem;
+  color: #888;
+}
+
+.funding-article header a {
+  display: flex;
+  height: 100%;
+}
+
+.funding-article header a img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.funding-article-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+
+.funding-article-title > h4 {
+  color: #fff;
+}
+
+.funding-article-title > div h4 {
+  color: #000;
+}
+
+.funding-article a {
+  text-decoration: none;
+}
+
+.funding-article section,
+.funding-article aside {
+  padding: 0.5rem 1rem;
+}
+
+.funding-article section a p {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+  font-size: 0.7rem;
+  color: #888;
+}
+
+.funding-article section a p:hover {
+  color: #333;
+}
+
+.funding-article aside {
+  border-top: #ffebe8 solid 3px;
+}
+
+.funding-article aside a {
+  font-size: 0.65rem;
+  color: #888;
+}
+
+.funding-article-icon {
+  margin-right: 0.5rem;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.source {
+  color: #bbb;
+}
+/* media queries for tablets and desktop screen sizes */
+@media screen and (min-width: 768px) {
+  .funding {
+    grid-template-columns: 1fr 1fr 1fr auto;
+    grid-template-rows: repeat(4, auto);
+    grid-column-gap: 1rem;
+  }
+
+  .funding-article:first-of-type {
+    margin-left: 1rem;
+  }
+
+  .funding-links {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .funding-links span {
+    display: inline;
+  }
+
+  .funding-header {
+    grid-row: 1/2;
+    grid-column: 1/5;
+  }
+
+  .funding-links {
+    width: 21rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .funding {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .funding-header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .funding article:last-of-type {
+    display: unset;
+    margin-right: 1rem;
+  }
+}
